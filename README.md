@@ -4,7 +4,7 @@ This project classifies news articles as real or fake using only the text of the
 
 The whole work is in one notebook: `beredjem-ouriachi-sellami-boudaba-projet-8.ipynb`.
 
-Authors: Beredjem, Ouriachi, Sellami, Boudaba.
+Authors: Sellami Siham
 
 ## Dataset
 
@@ -113,7 +113,7 @@ print("real" if label == 1 else "fake")
 
 ```
 .
-├── beredjem-ouriachi-sellami-boudaba-projet-8.ipynb
+├── .ipynb
 ├── images/
 └── README.md
 ```
