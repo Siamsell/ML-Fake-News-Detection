@@ -2,7 +2,7 @@
 
 This project classifies news articles as real or fake using only the text of the article. We built a TF-IDF pipeline, tuned three classic models (SVM, Logistic Regression, Naive Bayes), and compared them on accuracy, stability, training time and interpretability.
 
-The whole work is in one notebook: `beredjem-ouriachi-sellami-boudaba-projet-8.ipynb`.
+The whole work is in one notebook: `fake-news-detection-model.ipynb`.
 
 Authors: Sellami Siham
 
