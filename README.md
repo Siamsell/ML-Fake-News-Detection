@@ -113,13 +113,9 @@ print("real" if label == 1 else "fake")
 
 ```
 .
-├── .ipynb
+├── fake-news-detection-model.ipynb
 ├── images/
 └── README.md
 ```
 
-## Limitations
 
-- Only accuracy is reported. Precision, recall and F1 would give a fuller picture.
-- The text is cleaned once before the split, so the cleaning is not part of the cross-validated pipeline. This is fine here because the cleaning does not learn anything from the data, but it is worth knowing.
-- The dataset may contain source-specific hints (for example news agency names), which can make scores look better than they would on articles from other sources. Testing on a second dataset would show how well the model really generalizes.
